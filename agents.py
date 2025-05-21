@@ -59,7 +59,7 @@ class Editor(ds.Signature):
 
 # Configure the language model
 
-lm = ds.LM(model='mistral/open-mistral-7b',max_tokens = 2048, api_key='QEhd2LOvC1OsJm5BYlj0wfjP89VMj9iK')
+lm = ds.LM(model='mistral/open-mistral-7b',max_tokens = 2048, api_key='1tGMle0TKjnHG54Lm9Pk3PC7Y2RHZIKO')
 if not ds.settings.configure:
     ds.settings.configure(lm=lm)
 else:ds.settings.configure(lm=lm)
